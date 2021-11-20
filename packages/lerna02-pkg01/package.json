@@ -1,11 +1,11 @@
 {
-  "name": "fbtmp-lerna02-pkg02",
+  "name": "lerna02-pkg01",
   "version": "0.1.0",
   "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
   "keywords": [],
   "author": "Frieder Bluemle <frieder.bluemle@gmail.com>",
   "license": "ISC",
-  "main": "lib/fbtmp-lerna02-pkg02.js",
+  "main": "lib/lerna02-pkg01.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -13,7 +13,15 @@
   "files": [
     "lib"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fbtmp/lerna02.git"
+  },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/fbtmp/lerna02/issues"
+  },
+  "homepage": "https://github.com/fbtmp/lerna02#readme"
 }
